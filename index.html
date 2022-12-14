@@ -132,8 +132,12 @@
 
         <!--      Starting Navbar    -->
         <div class="main-content">
+
+
             <nav class="navbar">
+
                 <ul class="navbar-list">
+                  
                     <li class="navbar-item">
                         <button class="navbar-link active" data-nav-Link>Sobre</button>
                     </li>
@@ -144,9 +148,6 @@
                         <button class="navbar-link" data-nav-Link>Portfolio</button>
                     </li>
                     <li class="navbar-item">
-                        <button class="navbar-link" data-nav-Link>Trailhead</button>
-                    </li>
-                    <li class="navbar-item">
                         <button class="navbar-link" data-nav-Link>Contact</button>
                     </li>
                 </ul>
@@ -155,7 +156,7 @@
 
 
             <!--          Sobre       -->
-            <article class="about active" data-page="about">
+            <article class="Sobre active" data-page="about">
 
                 <header>
                     <h2 class="h2 article-title">About Me</h2>
@@ -229,7 +230,7 @@
             <!--     Fim serviços         -->
 
             <!--     Curriculo Start         -->
-            <article class="resume" data-page="resume">
+            <article class="curriculo" data-page="resume">
                 <header>
                     <h2 class="h2 article-title">Curriculo</h2>
                 </header>
@@ -326,15 +327,130 @@
                <!--                    Fim Curriculo -->
             <!--               Inicio     PORTFOLIO -->
 
-            <article class="portfolio" data-page></article>
-            
+            <article class="portfolio" data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Projetos</h2>
+                </header>
+
+                <section class="projects">
+                      <!--              metodo para filtrar a opcao escolhida -->
+                    <ul class="filter-list">
+                        <li class="filter-item" data-filter-btn>Tudo</li>
+                        <li class="filter-item"data-filter-btn>Web Development</li>
+                        <li class="filter-item"data-filter-btn>Salesforce Development</li>
+                    </ul>
+                      <!--              botaozinho das categorias -->
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                            <div class="select-value" data-select-value> Selecione a categoria</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item">
+                                <button data-select-item>Tudo</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>Web Development</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>Salesforce Development</button>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!--             selecao active // adicione alguns projetos -->
+                    <ul class="project-list">
+                         <!--            filtrando pelo data-filter-item -->
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./asserts/images/Screenshot_9.png" alt="nome1" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">nome1</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./asserts/images/Screenshot_9.png" alt="nome2" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">nome1</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="Salesforce development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./asserts/images/Screenshot_9.png" alt="nome3" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">nome1</h3>
+                                <p class="project-category">Salesforce Development</p>
+                            </a>
+                        </li>
+                    </ul>
 
 
 
+                </section>
+
+            </article>
+                <!--                    Fim portfolio -->
+                    <!--                    Inicio Contact -->
+
+                    <article class="contact" data-page="contact">
+
+                        <header>
+                            <h2 class="h2 article-title">Contato</h2>
+                        </header>
+
+                        <section class="mapbox" data-mapbox>
+                            <figure>
+                                <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                                width="400" height="300" loading="lazy"></iframe>
+                            </figure>
+                        </section>
+
+                    </article>
 
 
-        </div>
-    </main>
+              
+                 
+              
+                  </div>
+              
+                </main>
+
+     <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
