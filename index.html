@@ -2,453 +2,689 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link class="contact-item" nk rel="shortcut icon" href="./asserts/images/-moon_86854.ico" type="image/x-icon">
-    <link class="contact-item" nk rel="stylesheet" href="./asserts/css/style.css">
-    <title>Andre Luna Portfoli class="contact-item"o</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>André Luna</title>
 
+  <link rel="shortcut icon" href="/asserts/images/-moon_86854.ico" type="image/x-icon">
+  <!-- https://ionic.io/ionicons -->
+  <link rel="stylesheet" href="./asserts/css/style.css">
 
-
-    <li class="contact-item" nk rel="preconnect" href="https://fonts.googleapis.com">
-    <li class="contact-item" nk rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <li class="contact-item" nk
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-
-
+        <!-- fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body class="maain">
+<body>
 
-    <main>
-        <!-- Star Sidebard-->
-        <aside class="sidebar" data-sidebar>
+  <main>
 
-            <div class="sidebar-info">
-                <!-- Avatar, Name and Title -->
+    <!-- Star Sidebard-->
 
-                <figure class="avatar-box">
-                    <img src="./asserts/images/my-avatar.png.png" alt="Andre luna" width="80">
+    <aside class="sidebar" data-sidebar>
+       <!-- Avatar, Name and Title -->
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./asserts/images/my-avatar.png.png" alt="Andre Luna" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Andre Luna">Andre Luna</h1>
+
+          <p class="title">Salesforce Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+         <!-- Janela de informacoes -->
+         
+        <div class="separator"></div>
+<!-- div separator para o aside acompanhar o fundo da pag -->
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="contato.andreluna@gmail.com" class="contact-link">
+                contato.andreluna@gmail.com
+            </a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Celular</p>
+
+              <a href="tel:+557199301-3647" class="contact-link">+55 (71)99301-3647</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Aniversario</p>
+
+              <time datetime="1982-06-23">April 28</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Localizacao</p>
+
+              <address>Salvador, Brasil</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/andluna/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/AndLuna" class="social-link" target="_blank">
+              <ion-icon name="logo-Github"></ion-icon>
+          </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://trailblazer.me/id/aluna68" class="social-link" target="_blank">
+              <ion-icon name="cloudy"></ion-icon>
+          </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+<!--              fim ASIDE    -->
+
+        <!--      inicio Main    -->
+    <div class="main-content">
+
+         <!--      Inicio Menu/Navbar    -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-Link>Sobre</button>
+        </li>
+        <li class="navbar-item">
+            <button class="navbar-link" data-nav-Link>Curriculo</button>
+        </li>
+        <li class="navbar-item">
+            <button class="navbar-link" data-nav-Link>Portfolio</button>
+        </li>
+        <li class="navbar-item">
+            <button class="navbar-link" data-nav-Link>Contact</button>
+        </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+                       <!--          Fim Menu        -->
+                       <!--        Inicio  Sobre       -->
+
+      <article class="sobre  active" data-page="sobre">
+
+        <header>
+          <h2 class="h2 article-title">Sobre mim</h2>
+        </header>
+
+        <section class="sobre-text">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id voluptates atque quibusdam, rem
+            consequatur consectetur odio libero, nesciunt obcaecati enim ea reprehenderit mollitia et
+            adipisci vel nostrum nam quidem accusamus.</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore excepturi qui aut dolorem ipsam,
+            distinctio nemo similique omnis velit quisquam natus molestiae veritatis commodi dolores
+            necessitatibus doloremque laborum ab magnam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nostrum possimus minima sit
+            odit, nisi dignissimos labore animi excepturi, dicta ex accusamus reiciendis ea rem doloremque
+            similique illo nulla maiores?
+        </p>
+        </section>
+
+
+               <!--              Serviços -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">O que estou fazendo</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./asserts/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Salesforce Developer</h4>
+
+                <p class="service-item-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum numquam fugiat
+               
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./asserts/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum numquam fugiat.
+                </p>
+              </div>
+
+            </li>    
+
+          </ul>
+
+        </section>
+
+
+
+                     <!-- JS modal entre as abas no menu -->
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+            </div>
+            <div class="modal-content">
+              <div data-modal-text>
+              </div>
+            </div>
+          </section>
+
+        </div>
+
+      </article>
+            <!--     Fim serviços         -->
+             <!--     Fim Sobre         -->
+
+            <!--     Curriculo inicio         -->
+
+
+
+      <article class="curriculo" data-page="curriculo">
+
+        <header>
+          <h2 class="h2 article-title">curriculo</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Educação</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ciencias Economicas - UFBA</h4>
+
+              <span>2018-2020</span>
+
+              <p class="timeline-text">
+                Estudei ciencias economicas na Universidade Federal da Bahia, com enfase em matematica,
+                estatistica, macroeconomia e econometria.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Salesforce Development - SoulCode Academy</h4>
+
+              <span>2022-2023</span>
+
+              <p class="timeline-text">
+                Fui eleito á uma bolsa de estudos na EdTech SoulCode Academy no curso de desenvolvimento
+                Salesforce, após determinado tempo me tornei monitor voluntario para auxiliar alguns
+                alunos no aprendizado.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Development FullStack - Digital House</h4>
+
+              <span>2022-2023</span>
+
+              <p class="timeline-text">
+                Ao longo de 2022 á 2023 cursei desenvolvimento Web FullStack na Digital House, tenho
+                aptidão
+                com front-end e com Back-end.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">English C1 - LingoPass</h4>
+              <span>2022-2023</span>
+              <p class="timeline-text">
+                  Possuo Ingles avançado (nivel C1) certificado pela LingoPass.
+                  
+              </p>
+          </li>
+
+          </ol>
+
+        </section>
+                              <!-- Educacao fim -->
+                        <!-- Habilidades inicio -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Habilidades</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Salesforce Development</h4>
+
+              <p class="timeline-text">
+                APEX (Triggers, Classes de Teste, SOQL, etc++). </p>
+
+                <p class="timeline-text"> LWC (JavaScript, CSS, HTML).</p>
+               
+              <p class="timeline-text">  Administração (Flow, Regras de validacao, Process Builder, etc+).</p>
+            
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Development FullStack</h4>
+
+              
+
+              <p class="timeline-text">
+                Front-end em materias como REACT, JavaScript, CSS, HTML, Bootstrap.
+               <p class="timeline-text">No Back-end possuo dominio tambem em NodeJs, MVC, SQL, EXPRESS e etc.</p> 
+            </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">English</h4>
+
+              
+
+              <p class="timeline-text">
+                Consigo ler textos complexos com problemáticas a serem resolvidas.
+                Escrita intermediaria, possuo o conhecimento para escrever corretamente e me fazer ser entendido mediante textos. </p>
+               <p class="timeline-text">  Consigo me comunicar, e estou em processo de aperfeiçoamento.</p>
+               <p class="timeline-text">Tambem posso escutar uma conversa, participar de uma reunião e compreender os
+                temas abordados.
+             
+
+            </li>
+
+          </ol>
+
+        </section>
+
+   
+
+      </article>
+
+
+
+     <!--      Fim Habilidades -->
+<!--                    Fim Curriculo -->
+            <!--               Inicio     PORTFOLIO -->
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Salesforce development</button>
+            </li>
+
+          </ul>
+                  <!-- entao necessario criar um botaozinho para as categorias -->
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Selecione uma categoria</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+                    <!-- abrindo as opcoes -->
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Todos</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Salesforce development</button>
+              </li>
+
+            </ul>
+
+          </div>
+  <!--             selecao active // adicione alguns projetos -->
+          <ul class="project-list">
+            <!-- inserindo itens -->
+     <!--            filtrando pelo data-filter-item -->
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./asserts/images/project-1.jpg" alt="finance" loading="lazy">
                 </figure>
 
-                <div class="info-content">
-                    <h1 class="name" title="Andre Luna">André Luna</h1>
-                    <p class="title"> Web Developer</p>
-                </div>
+                <h3 class="project-title">teste1</h3>
 
-                <button class="info_more-btn" data-sidebar-btn>
-                    <span>Show Contacts</span>
-                    <ion-icon name="chevron-down"></ion-icon>
-                </button>
+                <p class="project-category">Web development</p>
 
-            </div>
+              </a>
+            </li>
 
-            <div class="sidebar-info_more">
-                <!-- General info Windows -->
-                <div class="separator"></div>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
 
-                <ul>
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="mail-outline"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">Email</p>
-
-                            <a href="contato.andreluna@gmail.com" class="contact-link">
-                                contato.andreluna@gmail.com
-                            </a>
-                        </div>
-
-                    </li>
-
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="phone-outline"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">Phone</p>
-
-                            <a href="tel:+557199301-3647" class="contact-link">+557199301-3647</a>
-                        </div>
-
-                    </li>
-
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="linkedin-outline"></ion-icon>
-                        </div>
-                        <div class="contact-info">
-                            <p class="contact-title">Linkedin</p>
-
-                            <a href="https://www.linkedin.com/in/andluna/"
-                                class="contact-link">https://www.linkedin.com/in/andluna/</a>
-
-                        </div>
-                    </li>
-
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="location-outline"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">Location</p>
-
-                            <address>Salvador, Brazil</address>
-                        </div>
-
-                    </li>
-                </ul>
-                <div class="separator"></div>
-
-                <ul class="social-list">
-                    <li class="social-item">
-                        <a href="#" class="social-link">
-                            <ion-icon name="logo-facebook"></ion-icon>
-                        </a>
-                    </li>
-                    <li class="social-item">
-                        <a href="#" class="social-link">
-                            <ion-icon name="logo-twitter"></ion-icon>
-                        </a>
-                    </li>
-                    <li class="social-item">
-                        <a href="#" class="social-link">
-                            <ion-icon name="logo-instagram"></ion-icon>
-                        </a>
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </aside>
-        <!--      END ASIDE    -->
-
-        <!--      Starting Navbar    -->
-        <div class="main-content">
-
-
-            <nav class="navbar">
-
-                <ul class="navbar-list">
-                  
-                    <li class="navbar-item">
-                        <button class="navbar-link active" data-nav-Link>Sobre</button>
-                    </li>
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-Link>Curriculo</button>
-                    </li>
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-Link>Portfolio</button>
-                    </li>
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-Link>Contact</button>
-                    </li>
-                </ul>
-            </nav>
-
-
-
-            <!--          Sobre       -->
-            <article class="Sobre active" data-page="about">
-
-                <header>
-                    <h2 class="h2 article-title">About Me</h2>
-                </header>
-
-                <section class="about-text">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id voluptates atque quibusdam, rem
-                        consequatur consectetur odio libero, nesciunt obcaecati enim ea reprehenderit mollitia et
-                        adipisci vel nostrum nam quidem accusamus.</p>
-
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore excepturi qui aut dolorem ipsam,
-                        distinctio nemo similique omnis velit quisquam natus molestiae veritatis commodi dolores
-                        necessitatibus doloremque laborum ab magnam!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nostrum possimus minima sit
-                        odit, nisi dignissimos labore animi excepturi, dicta ex accusamus reiciendis ea rem doloremque
-                        similique illo nulla maiores?
-                    </p>
-                </section>
-                <!--              Serviços -->
-
-                <section class="service">
-                    <h3 class="h3 service-title">Oque estou fazendo</h3>
-
-                    <ul class="service-list">
-                        <li class="service-item">
-
-                            <div class="service-icon-box">
-                                <img src="./asserts/images/icon-dev.svg" alt="development icon" width="40">
-                            </div>
-
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Web Developer</h4>
-
-                                <p class="service-item-text">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum numquam fugiat,
-                                    necessitatibus laborum labore consequatur possimus eveniet perspiciatis. Dolore
-                                    quidem amet minus exercitationem quae maiores sit dolorem deleniti laboriosam
-                                    labore.
-
-                                </p>
-                            </div>
-
-
-                        </li>
-                        <li class="service-item">
-
-                            <div class="service-icon-box">
-                                <img src="./asserts/images/icon-dev.svg" alt="development icon" width="40">
-                            </div>
-
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Salesforce Developer</h4>
-
-                                <p class="service-item-text">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum numquam fugiat,
-                                    necessitatibus laborum labore consequatur possimus eveniet perspiciatis. Dolore
-                                    quidem amet minus exercitationem quae maiores sit dolorem deleniti laboriosam
-                                    labore.
-
-                                </p>
-                            </div>
-
-
-                        </li>
-                    </ul>
-
-                </section>
-
-
-            </article>
-            <!--     Fim serviços         -->
-
-            <!--     Curriculo Start         -->
-            <article class="curriculo" data-page="resume">
-                <header>
-                    <h2 class="h2 article-title">Curriculo</h2>
-                </header>
-
-                <section class="timeline">
-                    <div class="title-wrapper">
-                        <div class="icon-box">
-                            <ion-icon name="book-outline"></ion-icon>
-                        </div>
-
-                        <h3 class="h3">Educação</h3>
-                    </div>
-
-                    <ol class="timeline-list">
-
-                        <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Ciencias Economicas - UFBA</h4>
-                            <span>2018-2020</span>
-                            <p class="timeline-text">
-                                Estudei ciencias economicas na Universidade Federal da Bahia, com enfase em matematica, estatistica, macroeconomia e econometria.
-                            </p>
-                        </li>
-
-                        <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Web Development FullStack - Digital House</h4>
-                            <span>2022-2023</span>
-                            <p class="timeline-text">
-                                Ao longo de 2022 á 2023 cursei desenvolvimento Web FullStack na Digital House, tenho aptidão 
-                                no front-end em materias como REACT, JavaScript, CSS, HTML, Bootstrap. No Back-end possuo dominio tambem em NodeJs, MVC, SQL, EXPRESS e etc. 
-                            </p>
-                        </li>
-                        <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Salesforce Development - SoulCode Academy</h4>
-                            <span>2022-2023</span>
-                            <p class="timeline-text">
-                                Fui eleito a uma bolsa de estudos na EdTech SoulCode Academy no curso de desenvolvimento Salesforce, após determinado tempo me tornei monitor voluntario para auxiliar alguns alunos no aprendizado.
-                            </p>
-                        </li>
-
-                    </ol>
-
-
-                </section>
-
-                <!-- Habilidades -->
-                <section class="timeline">
-                    <div class="title-wrapper">
-                        <div class="icon-box">
-                            <ion-icon name="book-outline"></ion-icon>
-                        </div>
-
-                        <h3 class="h3">Habilidades</h3>
-                    </div>
-
-                    <ol class="timeline-list">
-
-                        <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Salesforce Development</h4>
-                            
-                            <p class="timeline-text">
-                                APEX (Triggers, Classes de Teste, SOQL, etc++).
-                                LWC (JavaScript, CSS, HTML).
-                                Administração (Flow, Regras de validacao, Process Builder, etc+).
-                            </p>
-                        </li>
-
-                        <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Web Development FullStack - Digital House</h4>
-                           
-                            <p class="timeline-text">
-                               Front-end em materias como REACT, JavaScript, CSS, HTML, Bootstrap. 
-                               No Back-end possuo dominio tambem em NodeJs, MVC, SQL, EXPRESS e etc. 
-                            </p>
-                        </li>
-                        <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">English LingoPass</h4>
-                           
-                            <p class="timeline-text">
-                                Possuo Ingles avançado (nivel C1) certificado pela LingoPass.
-                                Consigo ler textos complexos com problemáticas a serem resolvidas.
-                                Escrita intermediaria, consigo escrever corretamente e me fazer ser entendido mediante a escrita. 
-                                Falo bem, e estou em processo de aperfeiçoamento.
-                                Listenning bom, consigo escutar uma conversa, participar de uma reunião e compreender os temas abordados.
-                                
-
-                            </p>
-                        </li>
-
-                    </ol>
-
-
-                </section>
-            </article>
-               <!--                    Fim Curriculo -->
-            <!--               Inicio     PORTFOLIO -->
-
-            <article class="portfolio" data-page="portfolio">
-                <header>
-                    <h2 class="h2 article-title">Projetos</h2>
-                </header>
-
-                <section class="projects">
-                      <!--              metodo para filtrar a opcao escolhida -->
-                    <ul class="filter-list">
-                        <li class="filter-item" data-filter-btn>Tudo</li>
-                        <li class="filter-item"data-filter-btn>Web Development</li>
-                        <li class="filter-item"data-filter-btn>Salesforce Development</li>
-                    </ul>
-                      <!--              botaozinho das categorias -->
-                    <div class="filter-select-box">
-                        <button class="filter-select" data-select>
-                            <div class="select-value" data-select-value> Selecione a categoria</div>
-
-                            <div class="select-icon">
-                                <ion-icon name="chevron-down"></ion-icon>
-                            </div>
-                        </button>
-
-                        <ul class="select-list">
-                            <li class="select-item">
-                                <button data-select-item>Tudo</button>
-                            </li>
-                            <li class="select-item">
-                                <button data-select-item>Web Development</button>
-                            </li>
-                            <li class="select-item">
-                                <button data-select-item>Salesforce Development</button>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <!--             selecao active // adicione alguns projetos -->
-                    <ul class="project-list">
-                         <!--            filtrando pelo data-filter-item -->
-                        <li class="project-item active" data-filter-item data-category="web development">
-                            <a href="#">
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-
-                                    <img src="./asserts/images/Screenshot_9.png" alt="nome1" loading="lazy">
-                                </figure>
-
-                                <h3 class="project-title">nome1</h3>
-                                <p class="project-category">Web Development</p>
-                            </a>
-                        </li>
-                        <li class="project-item active" data-filter-item data-category="web development">
-                            <a href="#">
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-
-                                    <img src="./asserts/images/Screenshot_9.png" alt="nome2" loading="lazy">
-                                </figure>
-
-                                <h3 class="project-title">nome1</h3>
-                                <p class="project-category">Web Development</p>
-                            </a>
-                        </li>
-                        <li class="project-item active" data-filter-item data-category="Salesforce development">
-                            <a href="#">
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-
-                                    <img src="./asserts/images/Screenshot_9.png" alt="nome3" loading="lazy">
-                                </figure>
-
-                                <h3 class="project-title">nome1</h3>
-                                <p class="project-category">Salesforce Development</p>
-                            </a>
-                        </li>
-                    </ul>
-
-
-
-                </section>
-
-            </article>
-                <!--                    Fim portfolio -->
-                    <!--                    Inicio Contact -->
-
-                    <article class="contact" data-page="contact">
-
-                        <header>
-                            <h2 class="h2 article-title">Contato</h2>
-                        </header>
-
-                        <section class="mapbox" data-mapbox>
-                            <figure>
-                                <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-                                width="400" height="300" loading="lazy"></iframe>
-                            </figure>
-                        </section>
-
-                    </article>
-
-
-              
-                 
-              
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
                   </div>
-              
-                </main>
 
-     <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
+                  <img src="./asserts/images/project-1.jpg" alt="orizon" loading="lazy">
+                </figure>
 
-  <!--
-    - ionicon link
-  -->
+                <h3 class="project-title">teste2</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="salesforce development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./asserts/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">teste3</h3>
+
+                <p class="project-category">Salesforce development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="salesforce development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./asserts/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">teste4</h3>
+
+                <p class="project-category">salesforce development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="salesforce development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./asserts/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">teste4.</h3>
+
+                <p class="project-category">salesforce development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./asserts/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">teste5</h3>
+
+                <p class="project-category">web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./asserts/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">teste6</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="salesforce development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./asserts/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">teste7</h3>
+
+                <p class="project-category">salesforce development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./asserts/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">teste8</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--                    Fim portfolio -->
+            <!--                    Inicio Contact -->
+
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contato</h2>
+        </header>
+
+
+                                   <!-- Inicio form  -->
+                           
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Entre em contato</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nome e Sobrenome" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Escreva uma mensagem" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Enviar Mensagem</span>
+            </button>
+
+          </form>
+
+        </section>
+                                  <!-- fim form  -->
+
+      </article>
+                                        <!-- fim contato  -->
+                                
+    </div>
+                                             <!-- fim main  -->
+  </main>
+                                  
+
+ <!--///////////////// js link referencia /////////////////////  -->
+  <script src="/asserts/js/script.js"></script>
+
+
+  <!--///////////////// ionicon link referencias /////////////////////  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
