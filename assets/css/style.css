@@ -38,7 +38,7 @@
    --jet: hsl(0, 0%, 31%);
    --onyx: hsl(199, 87%, 56%);
    --eerie-black-1: hsl(240, 2%, 13%);
-   --eerie-black-2: hsl(240, 2%, 12%);
+   --eerie-black-2: hsl(0, 0%, 100%);
    --smoky-black: hsla(0, 9%, 98%, 0.158);
    --white-1: hsl(0, 0%, 100%);
    --white-2: hsl(0, 0%, 13%);
@@ -692,7 +692,7 @@
  }
  
    /* adicionando sombreamento as opcoes */
- .select-item button:hover { --eerie-black-2: hsl(240, 2%, 20%); }
+ .select-item button:hover { --eerie-black-2: hsl(0, 0%, 86%); }
  
  .project-list {
    display: grid;
