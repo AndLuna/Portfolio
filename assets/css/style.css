@@ -268,26 +268,10 @@
  
  
   /*----------------Language button-------------------*/
- /* .languagetitle{
-  border: 1px solid rgb(21, 21, 246);
-  width: 53%;
-margin: 9% 0% -10% 19%;
-border: 1px solid rgb(197, 197, 199);
-border-radius: 10%;
- }
 
-
-  p.language{
-color: black;
-text-decoration: none;
-margin-left: 5%;
-padding: 5% 6%;
-font-size: 12px;
- }
-  */
   .language{
     margin: 0% 0% 0% 0%; 
-    font-size: 10px;
+    font-size: 11px;
     text-decoration: none;
     color: black;
      } 
@@ -900,13 +884,6 @@ font-size: 12px;
 /* // ------------------ Responsividade  tela > 450px ------------------ // */
 
 @media (min-width: 450px) {
-  /* .languagetitle{
-    border: 1px solid rgb(21, 21, 246);
-    width: 53%;
-  margin-top: 1%;
-  border: 1px solid rgb(197, 197, 199);
-  border-radius: 10%;
-   } */
 
   /* imagem portfolio aumenta */
     .project-img,
@@ -930,7 +907,7 @@ font-size: 12px;
     }
     .language{
       margin: 5% 0% 0% 0%; 
-    
+      font-size: 10px;
        } 
   
   /* stilos gerais */
@@ -1083,6 +1060,7 @@ font-size: 12px;
   @media (min-width: 768px) {
     .language{
       margin: 5% 0% 0% 0%; 
+      font-size: 12px;
        } 
     /* dimensoes */
     .sidebar, article { width: 700px; }
@@ -1155,6 +1133,7 @@ font-size: 12px;
 
        .language{
         margin: 5% 0% 0% 0%; 
+        font-size: 14px;
          } 
 
   /* estilos reutilizados */
@@ -1249,6 +1228,7 @@ font-size: 12px;
     }
     .language{
       margin: 11% 0% -0% -15%; 
+      font-size: 16px;
        } 
   /* jogando a sidebar para a barra lateral */
     .sidebar {
