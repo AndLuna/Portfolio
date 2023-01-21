@@ -265,7 +265,9 @@
    margin-bottom: 75px;
    min-width: 259px;
  }
- 
+ .contacts-list ion-icon {
+  color:var(--onyx);;
+ }
  
   /*----------------Language button-------------------*/
 
@@ -275,6 +277,9 @@
     text-decoration: none;
     color: black;
      } 
+     .languageText{
+      color: black;
+     }
 
 
 
