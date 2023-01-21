@@ -166,7 +166,7 @@
    content: "";
    position: absolute;
    inset: 1px;
-   background: rgb(238, 232, 232);
+   background: rgb(239, 239, 239);
    border-radius: inherit;
    z-index: -1;
  }
@@ -271,11 +271,11 @@
  .languagetitle{
   border: 1px solid rgb(21, 21, 246);
   width: 53%;
-margin-left: 19%;
-margin-top: 5%;
+margin: 9% 0% -10% 19%;
 border: 1px solid rgb(197, 197, 199);
 border-radius: 10%;
  }
+
 
   p.language{
 color: black;
@@ -430,7 +430,7 @@ font-size: 12px;
    bottom: 0;
    left: 0;
    width: 100%;
-   background: rgb(238, 232, 232);
+   background: rgb(252, 252, 252);
    backdrop-filter: blur(10px);
    border: 1px solid var(--jet);
    border-radius: 12px 12px 0 0;
@@ -501,7 +501,7 @@ font-size: 12px;
    content: "";
    position: absolute;
    inset: 1px;
-   background: rgb(238, 232, 232);
+   background:  rgba(245, 245, 245, 0.897);
    border-radius: inherit;
    z-index: -1;
  }
@@ -890,7 +890,13 @@ font-size: 12px;
 /* // ------------------ Responsividade  tela > 450px ------------------ // */
 
 @media (min-width: 450px) {
-
+  .languagetitle{
+    border: 1px solid rgb(21, 21, 246);
+    width: 53%;
+  margin-top: 1%;
+  border: 1px solid rgb(197, 197, 199);
+  border-radius: 10%;
+   }
 
   /* imagem portfolio aumenta */
     .project-img,
@@ -913,7 +919,13 @@ font-size: 12px;
   
     }
   
-  
+    .languagetitle{
+      border: 1px solid rgb(21, 21, 246);
+      width: 53%;
+    margin: 9% 0% -10% 19%;
+    border: 1px solid rgb(197, 197, 199);
+    border-radius: 10%;
+     }
   
   /* stilos gerais */
   

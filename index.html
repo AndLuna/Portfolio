@@ -170,9 +170,6 @@
             <button class="navbar-link" data-nav-Link>Resume</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-Link>Projects</button>
-          </li>
-          <li class="navbar-item">
             <button class="navbar-link" data-nav-Link>Contact</button>
           </li>
 
@@ -247,9 +244,235 @@
 
           </ul>
 
+
+      <!--               Inicio     PORTFOLIO -->
+   
+
         </section>
 
+        <div class="portfolio projects" data-page="projects">
 
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+  
+          <section class="projects">
+  
+            <ul class="filter-list">
+  
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+  
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+  
+              <li class="filter-item">
+                <button data-filter-btn>Salesforce development</button>
+              </li>
+  
+            </ul>
+            <!-- entao necessario criar um botaozinho para as categorias -->
+            <div class="filter-select-box">
+  
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>Select a category</div>
+  
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+  
+              </button>
+              <!-- abrindo as opcoes -->
+              <ul class="select-list">
+  
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+  
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+  
+                <li class="select-item">
+                  <button data-select-item>Salesforce development</button>
+                </li>
+  
+              </ul>
+  
+            </div>
+            <!--             selecao active // adicione alguns projetos -->
+            <ul class="project-list">
+              <!-- inserindo itens -->
+              <!--            filtrando pelo data-filter-item -->
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">teste1</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+  
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">teste2</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+  
+              <li class="project-item  active" data-filter-item data-category="salesforce development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">teste3</h3>
+  
+                  <p class="project-category">Salesforce development</p>
+  
+                </a>
+              </li>
+  
+              <li class="project-item  active" data-filter-item data-category="salesforce development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">teste4</h3>
+  
+                  <p class="project-category">salesforce development</p>
+  
+                </a>
+              </li>
+  
+              <li class="project-item  active" data-filter-item data-category="salesforce development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">teste4.</h3>
+  
+                  <p class="project-category">salesforce development</p>
+  
+                </a>
+              </li>
+  
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">teste5</h3>
+  
+                  <p class="project-category">web development</p>
+  
+                </a>
+              </li>
+  
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">teste6</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+  
+              <li class="project-item  active" data-filter-item data-category="salesforce development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">teste7</h3>
+  
+                  <p class="project-category">salesforce development</p>
+  
+                </a>
+              </li>
+  
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">teste8</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+  
+            </ul>
+  
+          </section>
+  
+        </div>
 
         <!-- JS modal entre as abas no menu -->
         <div class="modal-container" data-modal-container>
@@ -422,235 +645,7 @@
 
       <!--      Fim Habilidades -->
       <!--                    Fim Curriculo -->
-      <!--               Inicio     PORTFOLIO -->
-      <article class="portfolio projects" data-page="projects">
 
-        <header>
-          <h2 class="h2 article-title">Projects</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Salesforce development</button>
-            </li>
-
-          </ul>
-          <!-- entao necessario criar um botaozinho para as categorias -->
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-              <div class="select-value" data-selecct-value>Select a category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-            <!-- abrindo as opcoes -->
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Salesforce development</button>
-              </li>
-
-            </ul>
-
-          </div>
-          <!--             selecao active // adicione alguns projetos -->
-          <ul class="project-list">
-            <!-- inserindo itens -->
-            <!--            filtrando pelo data-filter-item -->
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">teste1</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">teste2</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="salesforce development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">teste3</h3>
-
-                <p class="project-category">Salesforce development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="salesforce development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">teste4</h3>
-
-                <p class="project-category">salesforce development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="salesforce development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">teste4.</h3>
-
-                <p class="project-category">salesforce development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">teste5</h3>
-
-                <p class="project-category">web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">teste6</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="salesforce development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">teste7</h3>
-
-                <p class="project-category">salesforce development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">teste8</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-      <!--                    Fim portfolio -->
       <!--                    Inicio Contact -->
 
 
