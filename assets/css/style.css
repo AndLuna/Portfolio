@@ -267,8 +267,23 @@
  }
  
  
- 
- 
+  /*----------------Language button-------------------*/
+ .languagetitle{
+  border: 1px solid rgb(21, 21, 246);
+  width: 53%;
+margin-left: 19%;
+margin-top: 5%;
+border: 1px solid rgb(197, 197, 199);
+border-radius: 10%;
+ }
+
+  p.language{
+color: black;
+text-decoration: none;
+margin-left: 5%;
+padding: 5% 6%;
+font-size: 12px;
+ }
  
  /* estilizacao da sidebar */
  
