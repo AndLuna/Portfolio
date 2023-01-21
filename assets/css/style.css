@@ -268,7 +268,7 @@
  
  
   /*----------------Language button-------------------*/
- .languagetitle{
+ /* .languagetitle{
   border: 1px solid rgb(21, 21, 246);
   width: 53%;
 margin: 9% 0% -10% 19%;
@@ -284,7 +284,17 @@ margin-left: 5%;
 padding: 5% 6%;
 font-size: 12px;
  }
- 
+  */
+  .language{
+    margin: 0% 0% 0% 0%; 
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+     } 
+
+
+
+
  /* estilizacao da sidebar */
  
  .sidebar {
@@ -890,13 +900,13 @@ font-size: 12px;
 /* // ------------------ Responsividade  tela > 450px ------------------ // */
 
 @media (min-width: 450px) {
-  .languagetitle{
+  /* .languagetitle{
     border: 1px solid rgb(21, 21, 246);
     width: 53%;
   margin-top: 1%;
   border: 1px solid rgb(197, 197, 199);
   border-radius: 10%;
-   }
+   } */
 
   /* imagem portfolio aumenta */
     .project-img,
@@ -918,14 +928,10 @@ font-size: 12px;
       --fs-8: 12px;
   
     }
-  
-    .languagetitle{
-      border: 1px solid rgb(21, 21, 246);
-      width: 53%;
-    margin: 9% 0% -10% 19%;
-    border: 1px solid rgb(197, 197, 199);
-    border-radius: 10%;
-     }
+    .language{
+      margin: 5% 0% 0% 0%; 
+    
+       } 
   
   /* stilos gerais */
   
@@ -1075,7 +1081,9 @@ font-size: 12px;
   
   
   @media (min-width: 768px) {
-   
+    .language{
+      margin: 5% 0% 0% 0%; 
+       } 
     /* dimensoes */
     .sidebar, article { width: 700px; }
   
@@ -1143,6 +1151,12 @@ font-size: 12px;
   
     }
   
+
+
+       .language{
+        margin: 5% 0% 0% 0%; 
+         } 
+
   /* estilos reutilizados */
   
     .sidebar, article {
@@ -1233,7 +1247,9 @@ font-size: 12px;
       width: 75%;
       margin: 0;
     }
-  
+    .language{
+      margin: 11% 0% -0% -15%; 
+       } 
   /* jogando a sidebar para a barra lateral */
     .sidebar {
       position: sticky;
