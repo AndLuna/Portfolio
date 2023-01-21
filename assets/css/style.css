@@ -270,8 +270,8 @@
   /*----------------Language button-------------------*/
 
   .language{
-    margin: 0% 0% 0% 0%; 
-    font-size: 11px;
+    margin: 5% 0% 0% 0%; 
+    font-size: 13px;
     text-decoration: none;
     color: black;
      } 
@@ -283,7 +283,7 @@
  
  .sidebar {
    margin-bottom: 15px;
-   max-height: 112px;
+   max-height: 132px;
    overflow: hidden;
    transition: var(--transition-2);
  }
