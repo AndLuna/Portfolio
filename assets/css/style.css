@@ -844,7 +844,7 @@
  .form-btn {
    position: relative;
    width: 100%;
-   background: var(--border-gradient-onyx);
+   background: rgba(26, 129, 163, 0.838);
    color: white;
    display: flex;
    justify-content: center;
