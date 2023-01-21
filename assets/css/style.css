@@ -265,7 +265,7 @@
    margin-bottom: 75px;
    min-width: 259px;
  }
- .contacts-list ion-icon {
+ .contacts-list ion-icon, .icon-box ion-icon {
   color:var(--onyx);;
  }
  
