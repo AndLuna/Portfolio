@@ -959,7 +959,7 @@
     .avatar-box { 
       border-radius: 30px;
      }
-    .avatar-box img { width: 120px; }
+    .avatar-box img { width: 120px; border-radius: 6px;}
   
     .info-content .name { margin-bottom: 15px; }
   
@@ -1249,7 +1249,7 @@
     /* alterando a flexBox pra column */
     .sidebar-info { flex-direction: column; }
   
-    .avatar-box img { width: 150px; }
+    .avatar-box img { width: 240px; }
   
     .info-content .name {
       white-space: nowrap;
