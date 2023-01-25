@@ -117,19 +117,47 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+function toggleDarkMode() {
+  document.body.classList.toggle("dark-mode");
+}
+
+
+
+
+
+
+
+
+
 
 ///// alterar as cores da pagina
 
 
-    // Adiciona um evento de clique ao botão
-    function toggleDark() {
-      document.body.style.backgroundColor = "black";
-      document.querySelectorAll("p").forEach(p=>p.style.color = "white");
-      document.querySelector(".title").style.backgroundColor = "green";
-    }
+//     // Adiciona um evento de clique ao botão
+//     function toggleDark() {
+//       document.body.style.backgroundColor = "black";
+//       document.querySelector("aside").style.backgroundColor = "black";
+//       document.querySelectorAll("p").forEach(p=>p.style.color = "white");
+//       document.querySelector(".title").style.backgroundColor = "green";
 
-function toggleLight() {
-      document.body.style.backgroundColor = "white";
-      document.querySelectorAll("p").forEach(p=>p.style.color = "black");
-      document.querySelector(".title").style.backgroundColor = "red";
-    }
+     
+// // document.querySelectorAll(".contact-item").forEach(icon => icon.style.backgroundColor = "black");
+// document.querySelectorAll("ion-icon").forEach(icon => icon.style.color = "white");
+
+//     }
+
+// function toggleLight() {
+  
+//       document.body.style.backgroundColor = "var(--smoky-black)";
+//       document.querySelector(".sidebar").style.backgroundColor = "rgb(245, 241, 245)";
+//       document.querySelector("article").style.backgroundColor = "rgb(245, 241, 245)";
+     
+//       document.querySelector(".icon-box ").style.Color = "rgb(214, 212, 212)";
+//       document.querySelector(".contacts-list").style.Color = "color:var(--onyx)";
+//       document.querySelector(".icon-box").style.Color = "color:var(--onyx)";
+
+//       document.querySelectorAll("p").forEach(p=>p.style.color = "black");
+//       document.querySelector(".title").style.backgroundColor = "var(--onyx)";
+//       document.querySelector(".title").style.color = "white";
+
+//     }
