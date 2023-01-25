@@ -117,3 +117,19 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+///// alterar as cores da pagina
+
+
+    // Adiciona um evento de clique ao botão
+    function toggleDark() {
+      document.body.style.backgroundColor = "black";
+      document.querySelectorAll("p").forEach(p=>p.style.color = "white");
+      document.querySelector(".title").style.backgroundColor = "green";
+    }
+
+function toggleLight() {
+      document.body.style.backgroundColor = "white";
+      document.querySelectorAll("p").forEach(p=>p.style.color = "black");
+      document.querySelector(".title").style.backgroundColor = "red";
+    }
